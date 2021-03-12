@@ -23,6 +23,17 @@ function changeLast(array, value) {
   array[array.length -1] = value;
 }
 
+//changeAllValuesTo
+// changes _every_ value in the given array to the given value
+
+function changeAllValuesTo(array, value) {
+  for (let i = 0; i < array.length; i++) {
+    array[i] = value;
+  }
+}
+
+
+
 
 
 /*********************************
