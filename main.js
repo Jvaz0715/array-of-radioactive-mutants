@@ -2,7 +2,12 @@
  * YOUR CODE HERE *
  ******************/
 
+// addMeToEnd
+// adds the string 'Colin' to the end of the given array
 
+function addMeToEnd(array) {
+  array.push('Colin')
+}
 
 
 
