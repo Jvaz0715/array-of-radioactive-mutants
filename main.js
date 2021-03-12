@@ -9,6 +9,13 @@ function addMeToEnd(array) {
   array.push('Colin')
 }
 
+//addMeToStart
+// adds the string 'Colin' to the beginning of the given array
+
+function addMeToStart(array) {
+  array.unshift('Colin');
+}
+
 
 
 /*********************************
