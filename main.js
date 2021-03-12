@@ -16,6 +16,13 @@ function addMeToStart(array) {
   array.unshift('Colin');
 }
 
+//changeLast
+// changes, not adds, the last value in the given array to the given value
+
+function changeLast(array, value) {
+  array[array.length -1] = value;
+}
+
 
 
 /*********************************
