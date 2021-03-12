@@ -32,8 +32,31 @@ function changeAllValuesTo(array, value) {
   }
 }
 
+// oddOrEven
+// changes every numerical value in the given array to odd if odd and even if even
 
+function oddOrEven(array) {
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] % 2 === 0) {
+      array[i] = 'even';
+    } else {
+      array[i] = 'odd';
+    }
+  }
+}
 
+// changeNextThreeToValue
+// starting with given index, change three consecutive values in the given array
+//to the given value. Note the order of our 3 parameters, and check the test if you're unsure
+
+function changeNextThreeToValue(start, array, value) {
+  for (let i =0; i < array.length; i ++) {
+    if (i === start || i === start+ 1|| i === start+ 2) {
+      array[i] = value;
+    }
+  }
+  return array;
+}
 
 
 /*********************************
